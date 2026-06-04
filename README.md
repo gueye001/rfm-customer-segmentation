@@ -7,6 +7,23 @@ marketing. Plutôt qu'une communication uniforme, l'objectif
 est d'identifier des groupes de clients homogènes selon
 leur comportement d'achat réel à partir de transactions brutes.
 
+## Qu'est-ce que le RFM ?
+
+La méthode RFM est une technique marketing qui évalue 
+la valeur d'un client selon 3 dimensions :
+
+| Dimension | Signification | Interprétation |
+|---|---|---|
+| **R**écence | Jours depuis le dernier achat | Plus c'est faible, mieux c'est |
+| **F**réquence | Nombre de commandes distinctes | Plus c'est élevé, mieux c'est |
+| **M**ontant | Chiffre d'affaires total généré | Plus c'est élevé, mieux c'est |
+
+Un client idéal a acheté **récemment**, **souvent** 
+et pour un **montant élevé**.
+
+Ces 3 variables sont construites à partir des transactions 
+brutes — c'est la partie feature engineering du projet.
+
 ## Dataset
 
 - **Source** : [Online Retail UCI](https://www.kaggle.com/datasets/mashlyn/online-retail-ii-uci)
