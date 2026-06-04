@@ -17,28 +17,19 @@ leur comportement d'achat réel à partir de transactions brutes.
 ## Méthodologie
 
 1. Nettoyage des données
-   - Suppression des transactions anonymes
-   - Suppression des retours et annulations
-   - Conversion des types
+2. Feature engineering — création des variables RFM
+3. Transformation logarithmique
+4. Normalisation et clustering KMeans
+5. Visualisation PCA et profilage des segments
+6. Recommandations marketing
 
-2. Feature engineering
-   - Création des variables RFM par client
-   - Récence : jours depuis le dernier achat
-   - Fréquence : nombre de commandes distinctes
-   - Montant : chiffre d'affaires total généré
+## Distribution des variables RFM
 
-3. Préparation pour le clustering
-   - Transformation logarithmique (distributions asymétriques)
-   - Normalisation StandardScaler
+![Distribution RFM](images/distribution_rfm.png)
 
-4. Clustering KMeans
-   - Courbe du coude → k=4
-   - Silhouette Score : 0.365
+## Courbe du coude
 
-5. Visualisations
-   - Distribution des segments
-   - Heatmap RFM
-   - Visualisation PCA (variance expliquée : 95.14%)
+![Courbe du coude](images/courbe_coude.png)
 
 ## Résultats
 
@@ -48,6 +39,22 @@ leur comportement d'achat réel à partir de transactions brutes.
 | Perdus | 1 974 (33.6%) | 396 jours | 1 commande | 326€ |
 | A risque | 1 465 (24.9%) | 228 jours | 5 commandes | 2 002€ |
 | Nouveaux prometteurs | 1 251 (21.3%) | 28 jours | 3 commandes | 865€ |
+
+## Répartition des segments
+
+![Répartition des segments](images/repartition_segments.png)
+
+## Profil des segments
+
+![Profil des segments](images/profil_segments.png)
+
+## Heatmap RFM
+
+![Heatmap RFM](images/heatmap_rfm.png)
+
+## Visualisation PCA
+
+![PCA clusters](images/pca_clusters.png)
 
 ## Recommandations marketing
 
