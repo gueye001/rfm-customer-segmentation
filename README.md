@@ -25,7 +25,7 @@ leur comportement d'achat réel à partir de transactions brutes.
 
 ## Distribution des variables RFM
 
-![Distribution RFM](images/distribution_rfm.png)
+<img src="images/distribution_rfm.png" width="600"/>
 
 ## Courbe du coude
 
