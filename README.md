@@ -57,6 +57,21 @@ brutes — c'est la partie feature engineering du projet.
 | A risque | 1 465 (24.9%) | 228 jours | 5 commandes | 2 002€ |
 | Nouveaux prometteurs | 1 251 (21.3%) | 28 jours | 3 commandes | 865€ |
 
+
+## Segments identifiés
+
+- **Champions** : clients récents, fidèles et à forte valeur — 
+  le segment le plus précieux à fidéliser
+  
+- **Clients perdus** : inactifs depuis plus d'un an, 
+  une seule commande en moyenne — réactivation difficile
+
+- **Clients à risque** : encore présents mais signal 
+  de départ détecté — intervention urgente requise
+
+- **Nouveaux prometteurs** : ont acheté récemment 
+  mais pas encore engagés — potentiel à développer
+
 ## Répartition des segments
 
 <img src="images/repartition_segments.png" width="600"/>
