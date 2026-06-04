@@ -29,7 +29,7 @@ leur comportement d'achat réel à partir de transactions brutes.
 
 ## Courbe du coude
 
-![Courbe du coude](images/courbe_coude.png)
+<img src="images/courbe_coude.png" width="500"/>
 
 ## Résultats
 
@@ -42,19 +42,19 @@ leur comportement d'achat réel à partir de transactions brutes.
 
 ## Répartition des segments
 
-![Répartition des segments](images/repartition_segments.png)
+<img src="images/repartition_segments.png" width="600"/>
 
 ## Profil des segments
 
-![Profil des segments](images/profil_segments.png)
+<img src="images/profil_segments.png" width="600"/>
 
 ## Heatmap RFM
 
-![Heatmap RFM](images/heatmap_rfm.png)
+<img src="images/heatmap_rfm.png" width="500"/>
 
 ## Visualisation PCA
 
-![PCA clusters](images/pca_clusters.png)
+<img src="images/pca_clusters.png" width="600"/>
 
 ## Recommandations marketing
 
