@@ -92,4 +92,4 @@ Ouvrir `notebook/rfm_segmentation.ipynb`
 
 ## Auteur
 
-[Ton nom] — [Lien LinkedIn]
+GUEYE khadim — www.linkedin.com/in/khadimgueye1
