@@ -1,5 +1,11 @@
 # Segmentation clients par analyse RFM
 
+🚀 **Dashboard live** : https://rfm-dashboard-gueye.streamlit.app
+
+## Aperçu
+
+<img src="images/dashboard_preview.png" width="800"/>
+
 ## Contexte
 
 Un retailer e-commerce souhaite mieux cibler ses actions
